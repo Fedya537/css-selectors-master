@@ -1,0 +1,82 @@
+h1{
+    color: green;
+}
+b{
+    color: purple;
+}
+span{
+    color:blue;
+}
+span + span{
+    color: green;
+}
+span + span + span{
+color: black;
+}
+div > span:nth-child(1){
+    color: red;
+}
+div > span:nth-child(2){
+    background: yellow;
+}
+.special{
+    color: orange;
+}
+div > span:nth-child(4){
+    color:green;
+}
+a + a{
+    color:green;
+}
+a + a + a{
+    color: red;
+}
+ul > li:nth-child(1){
+    color:red;
+}
+ul > li:nth-child(2){
+    background: yellow;
+}
+ul > li:nth-child(3){
+    color:red;
+}
+ul > li:nth-child(4){
+    background: yellow;
+}
+ul > li:nth-child(5){
+    color: red;
+}
+ul > li:nth-child(6){
+    background: yellow;
+}
+ul > li:nth-child(7){
+    color: purple;
+}
+ul + div > div{
+    color: pink;
+}
+ol > li:nth-child(1){
+    color:blue;
+}
+ol > li:nth-child(2){
+    color: green;
+}
+ol > li:nth-child(3){
+    color:blue;
+}
+ol > li:nth-child(4){
+    color: green;
+    background:grey ;
+}
+ol > li:nth-child(5){
+    color:blue;
+}
+ol > li:nth-child(6){
+    color:green;
+}
+ol > li:nth-child(7){
+    color: blue;
+}
+ol > li:nth-child(8){
+    color: orange;
+}
